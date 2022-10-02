@@ -4,10 +4,9 @@ import React, { useState } from 'react';
 
 export default function App() {
  //code here 
- const [inputvalue,setInputValue]=useState("");
+ const [inputvalue,setInputValue]= useState("");
  const[text,setText]=useState([]);
- 
- const changeInput=(e)=>{
+ const changeInput= (e) =>{
   setInputValue(e.target.value);
  };
  
